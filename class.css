@@ -1,0 +1,93 @@
+/* Add your CSS styles here */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.class-info {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.class-info h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.class-info p {
+    font-size: 24px;
+    color: #333;
+}
+
+.subjects,
+.subject-topics,
+.extra-curricular-activities {
+    padding: 60px 0;
+}
+
+.subjects h2,
+.subject-topics h2,
+.extra-curricular-activities h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.topic-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.topic-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.topic-item ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.extra-curricular-activities p {
+    font-size: 20px;
+    color: #333;
+}
+
+.extra-curricular-activities ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px; /* Adjust font size */
+}
+
+.live-class-button {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #FF5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 20px; /* Adjust font size */
+}
+
+.live-class-button:hover {
+    background-color: #d63c00;
+}
